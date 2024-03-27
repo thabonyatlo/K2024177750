@@ -165,7 +165,7 @@ html.has-scroll-dragging {
 }
 
 body {
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
   line-height: 1.2;
   font-size: 20px;
