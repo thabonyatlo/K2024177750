@@ -83,7 +83,7 @@ a {
   transform: translate3d(-20%, -20%, 0)
 }
 
-@keyframes app-cursor {
+/* @keyframes app-cursor {
   0% {
     transform: rotate(0deg)
   }
@@ -91,7 +91,7 @@ a {
   to {
     transform: rotate(-90deg)
   }
-}
+} */
 
 @keyframes app-cursor-scale {
   10% {
@@ -1296,7 +1296,8 @@ img {
   }
 
   .menu {
-    min-width: 340px
+    min-width: 340px;
+    width: 46%;
   }
 
   .intro__txt {
@@ -1509,7 +1510,7 @@ img {
   .intro__title {
     margin-top: 0;
     margin-bottom: 30px;
-    width: 60%;
+    width: 80%;
   }
 
   body {
@@ -1607,7 +1608,8 @@ img {
 
   .menu {
     min-width: 0;
-    width: 40%
+    margin-top: 10px;
+    width: 100%
   }
 
   .case-image__arrow--top {
