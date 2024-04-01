@@ -41,17 +41,17 @@ a {
   position: fixed;
   pointer-events: none;
   z-index: 100;
-  opacity: 1;
+  opacity: .8;
   display: flex;
   align-items: center;
-  transition: transform 200ms cubic-bezier(.215, .61, .355, 1)
+  transition: transform 50ms cubic-bezier(.215, .61, .355, 1)
 }
 
 .app-cursor p {
   fill: #fff;
   width: 100px;
-  transform: scale(4) translateX(20%);
-  transform-origin: center top
+  transform: scale(4) translateX(0%);
+  transform-origin: center left
 }
 
 .app-cursor.is--active {
@@ -59,7 +59,7 @@ a {
 }
 
 .app-cursor.is--back {
-  transform: rotate(-90deg)
+  transform: rotate(0deg)
 }
 
 .case-image__arrow:hover p {
@@ -72,7 +72,7 @@ a {
 }
 
 .app-cursor.is--active p {
-  animation: app-cursor-scale 2000ms cubic-bezier(.72, .07, 0, .99) 0ms forwards
+  animation: app-cursor-scale 500ms cubic-bezier(.72, .07, 0, .99) 0ms forwards
 }
 
 #hover-img-next {
@@ -89,33 +89,33 @@ a {
   }
 
   to {
-    transform: rotate(90deg)
+    transform: rotate(-90deg)
   }
 }
 
 @keyframes app-cursor-scale {
   10% {
-    transform: scale(3.375) translateX(-65%)
+    transform: scale(4) translateX(-1%)
   }
 
   20% {
-    transform: scale(0.325) translateX(-67%)
+    transform: scale(3) translateX(-2%)
   }
 
   30% {
-    transform: scale(2.425) translateX(-63%)
+    transform: scale(4) translateX(-1%)
   }
 
   40% {
-    transform: scale(1.375) translateX(-65%)
+    transform: scale(2) translateX(-2%)
   }
 
   50% {
-    transform: scale(3.425) translateX(-63%)
+    transform: scale(1) translateX(-3%)
   }
 
   to {
-    transform: scale(4) translateX(20%)
+    transform: scale(4) translateX(0%)
   }
 }
 
@@ -435,7 +435,8 @@ img {
 .flex-wrap {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between
+  justify-content: space-between;
+  align-items: center;
 }
 
 .flex-column {
@@ -1063,7 +1064,9 @@ img {
   }
 
   .intro__title {
-    margin-top: 34px
+    margin-top: 34px;
+    margin-bottom: 30px;
+    width: 75%;
   }
 
   .title--2 {
@@ -1505,7 +1508,8 @@ img {
 
   .intro__title {
     margin-top: 0;
-    margin-bottom: 6px
+    margin-bottom: 30px;
+    width: 60%;
   }
 
   body {
@@ -1826,7 +1830,8 @@ img {
   }
 
   .intro__title {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    width: 80%;
   }
 
   .intro--footer {
