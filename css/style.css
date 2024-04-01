@@ -166,7 +166,7 @@ html.has-scroll-dragging {
 
 @font-face {
   font-family: "Century Gothic";
-  src: url("font/Century Gothic/Regular.TTF");
+  src: url("/font/centurygothic/Regular.TTF");
 }
 
 body {
