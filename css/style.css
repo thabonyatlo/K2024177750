@@ -1023,6 +1023,7 @@ img {
 /* #overview:hover svg {
   display: none
 } */
+
 #overview:hover p {
   display: none
 }
@@ -1602,7 +1603,7 @@ img {
 
   .menu {
     min-width: 0;
-    width: 50%
+    width: 60%
   }
 
   .case-image__arrow--top {
@@ -1877,6 +1878,8 @@ img {
     left: 0
   }
 }
+
+/*
 
 .gform_button {
   -webkit-user-select: none;
