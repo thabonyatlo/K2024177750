@@ -50,7 +50,7 @@ a {
 .app-cursor p {
   fill: #fff;
   width: 100px;
-  transform: scale(4) translateX(0%);
+  transform: scale(1) translateX(0%);
   transform-origin: center left
 }
 
@@ -95,27 +95,27 @@ a {
 
 @keyframes app-cursor-scale {
   10% {
-    transform: scale(4) translateX(-1%)
+    transform: scale(2) translateX(-1%)
   }
 
   20% {
-    transform: scale(3) translateX(-2%)
+    transform: scale(1) translateX(-2%)
   }
 
   30% {
-    transform: scale(4) translateX(-1%)
+    transform: scale(2) translateX(-1%)
   }
 
   40% {
-    transform: scale(2) translateX(-2%)
+    transform: scale(1) translateX(-2%)
   }
 
   50% {
-    transform: scale(1) translateX(-3%)
+    transform: scale(2) translateX(-3%)
   }
 
   to {
-    transform: scale(4) translateX(0%)
+    transform: scale(1) translateX(0%)
   }
 }
 
